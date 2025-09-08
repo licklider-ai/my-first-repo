@@ -20,10 +20,10 @@ docker run hello-world
 ---
 
 ### 3. ローカルでの README.md 作成と初期化
-リポジトリを管理したいディレクトリに移動し、Git を初期化します。
+特定のプロジェクト専用のフォルダを作成して、その中でGit を初期化します。
 
 ```bash
-cd C:\Users\iwatu
+mkdir my-first-repo
 git init
 ```
 
