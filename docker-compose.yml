@@ -5,3 +5,4 @@ services:
       - "8080:80"
     volumes:
       - ./htdocs:/usr/local/apache2/htdocs/
+    command: ["httpd-foreground", "-c", "ServerName localhost"]
